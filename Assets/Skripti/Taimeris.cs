@@ -24,12 +24,12 @@ public class Taimeris : MonoBehaviour {
 		}
 		float t = Time.time - sakumaLaiks;
 
-		//aprekina laiku
+		//Aprekina izspelesanas laiku
 		string minutes = ((int)t / 60).ToString ();
 		string sekundes = (t % 60).ToString ("f2");
 		zvaigznuMinutes = Int32.Parse(minutes);
 
-		//izvada taimeri
+		//Izvada taimeri(laiku)
 		laikaTeksts.text = "Tavs Laiks\n" + minutes + ":" + sekundes;
 	}
 }
