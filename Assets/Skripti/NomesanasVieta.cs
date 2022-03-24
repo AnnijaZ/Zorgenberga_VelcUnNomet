@@ -6,15 +6,15 @@ using UnityEngine.EventSystems;
 
 public class NomesanasVieta : MonoBehaviour, IDropHandler {
 	//Uzglabās velkamā objekta un nomešanas lauka z rotāciju,
-	// kāarī rotācijas un izmēru pieļaujamo starpību
+	// kā arī rotācijas un izmēru pieļaujamo starpību
 	private float vietasZrot, velkObjZrot, rotacijasStarpiba, xIzmeruStarp, yIzmeruStarp;
 	private Vector2 vietasIzm, velkObjIzm;
 	//Norāde uz Objekti skriptu
 	public Objekti objektuSkripts;
-	//Int tipa mainigais, kas skaitis, cik automasinas ir novietotas pareizaja vieta
+	//Int tipa mainigais, kas skaitīs, cik automašīnas ir novietotas pareizajā vietā
 	static public int parViet=0;
 
-	//Parbaude vai ir novietoti visi objekti savas vietas
+	//Pārbaude vai ir novietoti visi objekti savās vietas
 	public GameObject fons, zvaigzne1, zvaigzne2, zvaigzne3, atsakt, uzvara, laiks;
 	public void uzvareji(){
 		if (parViet > 10) {
@@ -35,7 +35,8 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler {
 			}
 		}
 	}
-
+	
+	//Paslēpj uzvaras logu
 	void Start () {
 		fons.SetActive(false);
 		zvaigzne1.SetActive(false);
