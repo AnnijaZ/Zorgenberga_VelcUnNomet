@@ -7,10 +7,10 @@ Unity 2D spēle, kas nodrošina objektu vilkšanu, nolikšanu.
 - [x] Objektu novietošanas (pareizi/nepareizi) nodrošināšana
 - [x] Objektu rotācijas iespēju integrēšana
 - [x] Objektu izēra maiņas iespēju integrēšana 
-- [ ] Laika atskaites integrēšana
-- [ ] Punktu sistēmas ieviešana
-- [ ] Papildinat projektu ar vel astoniem transportlidzekliem
-- [ ] Ieviest jaunus skanu efektus
-- [ ] Fukncionalitate ar 11 transportlidzeklu novietosanu pareizajas vietas un uzvaras pazinojumu
-- [ ] Ieviesta jauna aina un izstradata speles sakuma izvelne
-- [ ] Veikta katras izstradatas koda rindas saprotama un korekta darbibas komentesana
+- [x] Laika atskaites integrēšana
+- [x] Punktu sistēmas ieviešana
+- [x] Papildinat projektu ar vel astoniem transportlidzekliem
+- [x] Ieviest jaunus skanu efektus
+- [x] Fukncionalitate ar 11 transportlidzeklu novietosanu pareizajas vietas un uzvaras pazinojumu
+- [x] Ieviesta jauna aina un izstradata speles sakuma izvelne
+- [x] Veikta katras izstradatas koda rindas saprotama un korekta darbibas komentesana
