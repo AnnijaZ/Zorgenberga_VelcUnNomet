@@ -8,7 +8,7 @@ public class PoguSkripts : MonoBehaviour {
 	public void uzkliksinot (){
 		SceneManager.LoadScene("Pilseta");
 	}
-
+	//Nodrošina spēles atsākšanu aizejot atpakaļ uz ainu Izvelne
 	public void atskakt (){
 		SceneManager.LoadScene("Izvelne");
 	}
